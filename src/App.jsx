@@ -13,7 +13,7 @@ function App() {
   const [departmentFilter, setDepartmentFilter] = useState("");
   const [editId, setEditId] = useState(null);
 
-  const API_URL = "https://ems-backend-eyl4.onrender.com";
+  const API_URL = "https://ems-backend-eyl4.onrender.com/employee";
 
   // FETCH EMPLOYEES
   const getEmployees = async () => {
